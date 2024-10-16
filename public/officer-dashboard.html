@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Officer Dashboard</title>
+    <link rel="stylesheet" href="officer-dashboard.css"> 
+    <script src="officer-dashboard.js" defer></script>
+</head>
+<body>
+    
+    
+    <div class="container">
+      <h1>Officer Dashboard</h1>
+      <div class="cont2">
+        <h2>Assigned Cases</h2>
+        <ul id="assignedCasesList"></ul>
+      </div>
+    <div class="cont1">
+    <h2>Add New Crime</h2>
+    <input type="text" id="newCrimeTitle" placeholder="Crime Title" required>
+    <input type="text" id="newCrimeDescription" placeholder="Crime Description" required>
+    <input type="text" id="newCrimeLocation" placeholder="Crime Location" required>
+    <button id="addCrimeButton">Add Crime</button>
+  </div>
+  
+  <div class="cont3">
+    <h2>Update Crime</h2>
+    <input type="text" id="updateCrimeId" placeholder="Crime ID" required>
+    
+    <h3>Update Fields</h3>
+    <input type="text" id="updateCrimeTitle" placeholder="New Crime Title (leave blank to keep current)">
+    <input type="text" id="updateCrimeDescription" placeholder="New Crime Description (leave blank to keep current)">
+    <input type="text" id="updateCrimeLocation" placeholder="New Crime Location (leave blank to keep current)">
+    <button id="updateCrimeButton">Update Crime</button>
+
+    <p id="updateMessage"></p> <!-- Message display for updates -->
+  </div>
+    <button id="logoutButton">Logout</button> <!-- Logout Button -->
+  </div>
+    
+</body>
+</html>

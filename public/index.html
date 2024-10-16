@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Dashboard</h2>
+    <button id="logoutBtn">Logout</button>
+
+    <div id="officerSection" style="display: none;">
+      <h3>Officer Actions</h3>
+      <form id="crimeForm">
+        <input type="text" id="crimeTitle" placeholder="Crime Title" required />
+        <input type="text" id="crimeLocation" placeholder="Location" required />
+        <button type="submit">Add Crime</button>
+      </form>
+    </div>
+
+    <div id="adminSection" style="display: none;">
+      <h3>Admin Actions</h3>
+      <button id="viewCrimes">View All Crimes</button>
+      <div id="crimeList"></div>
+    </div>
+  </div>
+</body>
+</html>

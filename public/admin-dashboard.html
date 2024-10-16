@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin0dashboard.css"> 
+    <script src="admin-dashboard.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <h1>Admin Dashboard</h1>
+    <div class="cont1">
+    <h2>All Crimes</h2>
+    <ul id="crimeList"></ul>
+</div>
+<div class="cont2">
+    <h2>Delete Crime</h2>
+    <input type="text" id="deleteCrimeId" placeholder="Crime ID to delete">
+    <button id="deleteCrimeButton">Delete Crime</button>
+</div>
+<div class="cont3">
+    <h2>Assign Crime to Officer</h2>
+    <input type="text" id="assignCrimeId" placeholder="Crime ID">
+    <input type="text" id="assignUserId" placeholder="Officer User ID">
+    <button id="assignCrimeButton">Assign Crime</button>
+</div>
+    <button id="logoutButton">Logout</button> <!-- Logout Button -->
+</div>
+    
+</body>
+</html>

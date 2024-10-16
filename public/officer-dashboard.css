@@ -1,0 +1,172 @@
+/*Reset default styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Elegant font choice */
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Main container */
+.container {
+    width: 80%;
+  
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Optional, for vertical alignment */
+}
+
+
+/* Header styling */
+h1 {
+    
+    padding:20px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #007BFF;
+    
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #0056b3;
+    margin-top: 30px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 8px;
+}
+.cont1{
+    width: 100%;
+    
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-size: 1rem;
+    display: block; /* Ensures consistent block alignment */
+}
+
+.cont2{
+    width: 100%;
+    
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-size: 1rem;
+    display: block; /* Ensures consistent block alignment */
+}
+.cont3{
+    width: 100%;
+    
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-size: 1rem;
+    display: block; /* Ensures consistent block alignment */
+}
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-size: 1rem;
+    display: block; /* Ensures consistent block alignment */
+}
+
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 300px;
+    
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center; /* Ensure text is centered */
+}
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Logout button */
+.logout-button {
+    background-color: #dc3545;
+    margin-top: 20px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+/* Assigned cases list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Update message styling */
+#updateMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
